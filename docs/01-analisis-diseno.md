@@ -16,3 +16,14 @@ Las restricciones a respetar serán:
 Esto quiere decir que el nivel del agau que detectemos en el tanque debe ser siempre mayor a cero y menor que la capacidad máxima del tanque.
 
 2. Identificación de objetos
+
+En esta problemática se detectan dos objetos: El tanque y el sensor.
+
+- Tanque: Representa justamente el tanque, con su identificación, su capacidad máxima, su nivel actual en litros y su estado de operación. Consideramos que debe existir porque la problemática misma lo requiere para saber de qué tanque dentro de la pequeña instalación estamos hablando.
+- Sensor: Representa el monitoreo de cada tanque y, dependiendo de lo que detecte, realizará el llenado, vaciado o detención del tanque, al igual que mostrar su porcentaje de llenado y su estado; en pocas palabras, será el encargado de mandar información cada que el cliente requiera una consulta acerca del tanque.
+
+3. Estado y comportamiento
+
+| **Objeto propuesto** | **Responsabilidad** |**Información que debe conservar**|**Comportamiento que debe realizar**|
+|----------------------|-------------------|-|-|
+| Tanque               |                   |
