@@ -24,7 +24,7 @@ En esta problemática se detectan dos objetos: El tanque y el sensor.
 
 3. Estado y comportamiento
 
-| **Objeto propuesto** | **Responsabilidad**                             | **Información que debe conservar**                                                                              |**Comportamiento que debe realizar**|
-|----------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|-|
-| Tanque               | Representar un tanque dentro de la instalación. | Contendrá el identificador del tanque, su capacidad máxima, su nivel actual en litros y su estado de operación. |Representar a uno de los tanques dentro de la instalación.|
-| Sensor               | Recopilar información acerca del tanque.        | Nivel de llenado del tanque                                                                                     |Llenado, vaciado y detención del tanque, mostrar al usuario su porcentaje de llenado y el estado en el que se encuentra.
+| **Objeto propuesto** | **Responsabilidad**                             | **Información que debe conservar**                                                                              | **Comportamiento que debe realizar**                                                                                     |
+|----------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
+| Tanque               | Representar un tanque dentro de la instalación. | Contendrá el identificador del tanque, su capacidad máxima, su nivel actual en litros y su estado de operación. | Representar a uno de los tanques dentro de la instalación.                                                               |
+| Sensor               | Recopilar información acerca del tanque.        | Nivel de llenado del tanque                                                                                     | Llenado, vaciado y detención del tanque, mostrar al usuario su porcentaje de llenado y el estado en el que se encuentra. | 
