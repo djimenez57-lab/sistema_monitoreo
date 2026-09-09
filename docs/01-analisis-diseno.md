@@ -28,3 +28,15 @@ En esta problemática se detectan dos objetos: El tanque y el sensor.
 |----------------------|-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Tanque               | Representar un tanque dentro de la instalación. | Contendrá el identificador del tanque, su capacidad máxima, su nivel actual en litros y su estado de operación. | Representar a uno de los tanques dentro de la instalación.                                                               |
 | Sensor               | Recopilar información acerca del tanque.        | Nivel de llenado del tanque                                                                                     | Llenado, vaciado y detención del tanque, mostrar al usuario su porcentaje de llenado y el estado en el que se encuentra. | 
+
+4. Relaciones entre los objetos.
+
+Consideramos que ambos objetos necesitan colaborar entre sí, ya que el objeto "tanque" nos dirá de qué tanque se trata y el objeto "sensor" mandará la información de dicho tanque al usuario.
+
+
+Para esto, el objeto "sensor" requiere del objeto "tanque" la identificación del tanque para saber de qué tanque se trata, su capacidad máxima para saber hasta que punto llenar, su nivel actual en litros para determinar si se llenará, vaciará o detendrá el tanque y el estado en el que se encuentra.
+
+Esta relación es necesaria debido a que sin el objeto "tanque", el objeto "sensor" no sabrá de qué tanque requiere la información el usuario. Se podría mandar la información de un tanque determinado, por ejemplo el 1, pero no se podría acceder a los demás.
+
+Consideramos que una de las responsabilidades que comparten ambos objetos es el estado del tanque, pero con una ligera diferencia: el objeto "tanque" muestra en qué estado está, mientras que el objeto "sensor" determina o modifica su estado actual. No se repiten como tal, pero se debe de tener cuidado para no confundirse.
+
