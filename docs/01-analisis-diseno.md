@@ -42,8 +42,8 @@ Consideramos que una de las responsabilidades que comparten ambos objetos es el 
 
 5. **Diseño de clases**
 
-|**Clase**| **Atributos propuestos**                                                                                                                                                        | **Tipo de dato**   | Métodos propuestos**                                                                                         | **Responsabilidad**                                                 |
-|-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|Tanque| Identificador del tanque (id_tanque:String), capacidad máxima (capacidadMaxima: float/double), nivel actual (nivelActual: float/double) y estado de operación (estado: String). | Atributos privados | tanque(id, capacidadMaxima), llenar(), vaciar(), detener(), actualizarNivel(), getNivelActual(), getEstado() | Guardar los límites del nivel y controlar sus estados de operación. |
-
+|**Clase**|**Atributos propuestos**|**Tipo de dato**|Métodos propuestos**|**Responsabilidad**|
+|-|-|-|-|-|
+|Tanque|Identificador del tanque (id_tanque), capacidad máxima (c_max), nivel actual (n_actual) y estado de operación (est_operacion).|Datos públicos|
+|Sensor|Identificador del sensor(id_snensor),tanque.|datos publicos|
 ![Bajo la lluvia.png](../Image/Bajo%20la%20lluvia.png)
