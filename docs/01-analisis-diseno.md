@@ -1,3 +1,15 @@
+### Información de la Práctica
+
+| Rol | Nombre del Integrante |
+| :--- | :--- |
+| **Estudiante A** | Daniela Jimenez Herrera |
+| **Estudiante B** | Arath Yahir Albino Caballero |
+
+**Fecha de inicio:** 02 de septiembre de 2026
+
+---
+
+
 1. Descripción del problema. 
 
 El sistema que se pretende representar es una pequeña instalación de tanques de agua.
