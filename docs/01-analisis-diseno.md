@@ -12,7 +12,7 @@
 
 1. Descripción del problema. 
 
-El sistema que se pretende representar es una pequeña instalación de tanques de agua.
+Se pretende crear un código para la representación de una pequeña planta de tanques de agua, donde el principal objetivo es su monitoreo.
 Para ello, es necesario conocer de qué tanque se trata (identificación), su capacidad máxima, su nivel actual en litros y su estado de operación, el cual variará en 3: 
 - Detenido. 
 - Llenando. 
