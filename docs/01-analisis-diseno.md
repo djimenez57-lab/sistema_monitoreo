@@ -40,4 +40,4 @@ Esta relación es necesaria debido a que sin el objeto "tanque", el objeto "sens
 
 Consideramos que una de las responsabilidades que comparten ambos objetos es el estado del tanque, pero con una ligera diferencia: el objeto "tanque" muestra en qué estado está, mientras que el objeto "sensor" determina o modifica su estado actual. No se repiten como tal, pero se debe de tener cuidado para no confundirse.
 
-![Diagrama UML final](C:\Users\Daniela\Documents\Ingeniería%20Informática\Practica_4\Image\Bajo%20la%20lluvia.png)
+![Diagrama UML final](Bajo%20la%20lluvia.png)
