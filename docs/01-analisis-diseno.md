@@ -39,5 +39,4 @@ Para esto, el objeto "sensor" requiere del objeto "tanque" la identificación de
 Esta relación es necesaria debido a que sin el objeto "tanque", el objeto "sensor" no sabrá de qué tanque requiere la información el usuario. Se podría mandar la información de un tanque determinado, por ejemplo el 1, pero no se podría acceder a los demás.
 
 Consideramos que una de las responsabilidades que comparten ambos objetos es el estado del tanque, pero con una ligera diferencia: el objeto "tanque" muestra en qué estado está, mientras que el objeto "sensor" determina o modifica su estado actual. No se repiten como tal, pero se debe de tener cuidado para no confundirse.
-
-![Diagrama UML final](Bajo%20la%20lluvia.png)
+![Bajo la lluvia.png](../Image/Bajo%20la%20lluvia.png)
