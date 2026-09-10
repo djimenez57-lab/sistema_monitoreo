@@ -13,7 +13,7 @@ Las restricciones a respetar serán:
 - nivelActual >= 0
 - nivelActual <= capacidadMaxima
 
-Esto quiere decir que el nivel del agau que detectemos en el tanque debe ser siempre mayor a cero y menor que la capacidad máxima del tanque.
+Esto quiere decir que el nivel del agua que detectemos en el tanque debe ser siempre mayor a cero y menor que la capacidad máxima del tanque.
 
 2. **Identificación de objetos**
 
@@ -34,9 +34,16 @@ En esta problemática se detectan dos objetos: El tanque y el sensor.
 Consideramos que ambos objetos necesitan colaborar entre sí, ya que el objeto "tanque" nos dirá de qué tanque se trata y el objeto "sensor" mandará la información de dicho tanque al usuario.
 
 
-Para esto, el objeto "sensor" requiere del objeto "tanque" la identificación del tanque para saber de qué tanque se trata, su capacidad máxima para saber hasta que punto llenar, su nivel actual en litros para determinar si se llenará, vaciará o detendrá el tanque y el estado en el que se encuentra.
+Para esto, el objeto "sensor" requiere del objeto "tanque" la identificación del tanque para saber de qué tanque se trata, su capacidad máxima para saber hasta qué punto llenar, su nivel actual en litros para determinar si se llenará, vaciará o detendrá el tanque y el estado en el que se encuentra.
 
 Esta relación es necesaria debido a que sin el objeto "tanque", el objeto "sensor" no sabrá de qué tanque requiere la información el usuario. Se podría mandar la información de un tanque determinado, por ejemplo el 1, pero no se podría acceder a los demás.
 
 Consideramos que una de las responsabilidades que comparten ambos objetos es el estado del tanque, pero con una ligera diferencia: el objeto "tanque" muestra en qué estado está, mientras que el objeto "sensor" determina o modifica su estado actual. No se repiten como tal, pero se debe de tener cuidado para no confundirse.
+
+5. **Diseño de clases**
+
+|**Clase**|**Atributos propuestos**|**Tipo de dato**|Métodos propuestos**|**Responsabilidad**|
+|-|-|-|-|-|
+|Tanque|Identificador del tanque (id_tanque), capacidad máxima (c_max), nivel actual (n_actual) y estado de operación (est_operacion).|
+
 ![Bajo la lluvia.png](../Image/Bajo%20la%20lluvia.png)
