@@ -42,6 +42,14 @@ Consideramos que una de las responsabilidades que comparten ambos objetos es el 
 
 5. **Diseño de clases**
 
-|**Clase**| **Atributos propuestos**                                                                                                                                                        | **Tipo de dato**   | **Métodos propuestos**                                                                                       | **Responsabilidad**                                                 |
-|-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-|Tanque| Identificador del tanque (id_tanque:String), capacidad máxima (capacidadMaxima: float/double), nivel actual (nivelActual: float/double) y estado de operación (estado: String). | Atributos privados | tanque(id, capacidadMaxima), llenar(), vaciar(), detener(), actualizarNivel(), getNivelActual(), getEstado() | Guardar los límites del nivel y controlar sus estados de operación. |
+|**Clase**| **Atributos propuestos**                                                                                                                                                        | **Tipo de dato**   | **Métodos propuestos**                                                                                                 | **Responsabilidad**                                                 |
+|-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+|Tanque| Identificador del tanque (id_tanque:String), capacidad máxima (capacidadMaxima: float/double), nivel actual (nivelActual: float/double) y estado de operación (estado: String). | Atributos privados | tanque(id, capacidadMaxima), llenar(), vaciar(), detener(), actualizarNivel(nuevoNivel), getNivelActual(), getEstado() | Guardar los límites del nivel y controlar sus estados de operación. |
+
+6. **Diagrama UML inicial**
+
+| Tanque                                                                                                                                                                                                                                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| - id_tanque: String <br/> - capacidadMaxima: double <br/> - nivelActual: double <br/> - estado: String                                                                                                                                  |
+| + tanque(id_tanque: String, capacidadMaxima: double)<br/> + llenar(): void<br/> + vaciar(): void<br/> + detener(): void <br/> + actualizarNivel(nuevoNivel: double): double<br/> + getNivelActual(): double <br/> + getEstado(): String |
+|
