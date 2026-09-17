@@ -50,3 +50,5 @@ Consideramos que una de las responsabilidades que comparten ambos objetos es el 
 6. **Diagrama UML inicial**
 
 ![DiagramaUML_tanque.jpg](../Image/DiagramaUML_tanque.jpg)
+![Sensor](../Image/Sensor1.png)
+
